@@ -1,0 +1,63 @@
+.tracker-general .tracker-form .receipt-general {
+    margin: 5px;
+    border: 1px solid #8e8b8b;
+    border-radius: 3px;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+.receipt-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.receipt-select{
+    width: 100px;
+}
+.item {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item input {
+    width: 70%;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #8e8b8b;
+}
+
+.item .price {
+    display: flex;
+    align-items: center;
+    width: 20%;
+
+}
+
+.item .price input {
+    width: 100%;
+    text-align: right;
+    border-radius: 3px 0 0 3px;
+    border-right:none;
+}
+.item .price span {
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 22px;
+    border: 1px solid #8e8b8b;
+    border-left:none;
+    border-radius: 0 3px 3px 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+}

@@ -1,0 +1,29 @@
+.tracker-general {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    border: 1px solid #8e8b8b;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.tracker-general .tracker-form {
+    display: flex;
+    height: 500px;
+    min-width: 200px;
+    max-height: 500px;
+    padding: 10px;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.tracker-general .tracker-bottom {
+    padding: 5px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
